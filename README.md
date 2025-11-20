@@ -1,29 +1,15 @@
-# M0bsy-Encryption
+# M0bsy Encryption Bot
 
-A secure Telegram bot that encrypts & decrypts files using AES-256 and password-wrapped master keys.
+A secure Telegram bot for file encryption & decryption using AES-256.
 
----
-
-## 🚀 Features
-- AES-256-GCM encryption
-- Password-protected decryption
-- XChaCha20 optional mode
-- QR key export
-- Owner-only decryption
-- Termux, Linux, Windows supported
-
----
-
-## 📌 Install (Termux / Linux)
-
+## Installation (Termux)
 ```bash
-pkg update -y
+pkg update && pkg upgrade
 
-pkg install python git -y
-    # Termux: or apt-get on server
+pkg install git -y
 
 git clone https://github.com/M0bsyy/M0bsy-Encryption.git
 
 cd M0bsy-Encryption
 
-pip install -r requirements.txt
+bash install.sh
