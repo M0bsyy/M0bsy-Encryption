@@ -17,6 +17,6 @@ A secure Telegram bot that encrypts & decrypts files using AES-256 and password-
 ## 📌 Install (Termux / Linux)
 
 ```bash
-git clone https://github.com/yourusername/telegram-encrypt-bot.git
+git clone https://github.com/M0bsyy/M0bsy-Encryption.git
 cd telegram-encrypt-bot
 pip install -r requirements.txt
