@@ -1,4 +1,0 @@
-cryptography==3.4.8
-python-telegram-bot==21.6
-qrcode
-Pillow==9.5.0
